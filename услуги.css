@@ -1,0 +1,214 @@
+body{
+  margin: 0;
+  background: #C9C9C9;
+  font-family: 'Lora', serif;
+}
+header{
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 30px;
+  height: 70px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo-text{
+  font-family: 'Pacifico';
+  font-size: 40px;
+  margin-right: 10px;
+  font-style: italic;
+  font-weight: 15px;
+}
+.logo-img{
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+}
+nav{
+  margin-right: 50px;
+  margin-top: 25px;
+}
+nav a{
+  text-decoration: none;
+  color: #222;
+  margin-left: 40px;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  padding: 8px 14px;
+  position: relative;
+  z-index: 1;
+  background-image: url(/kodland/сайт-визитка/images/брызги.png);
+  background-image: center;
+}
+a:hover{
+  border: 3px solid #888;
+  background-color: #bcbcbc;
+}
+main {
+    padding: 0 16px;
+}
+.kamilya{
+  margin: 0 auto;
+  text-align: center;
+  padding: 35px 15px 10px 15px;
+}
+.kamilya-title{
+  background: #ffffff;
+  margin-bottom: 30px;
+  display: inline-block;
+  padding: 10px 45px 12px 45px;
+  border-radius: 10px;
+}
+.kamilya-title h2{
+  margin: 0;
+  font-size: 2em;
+  color: #111;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+}
+.price-list h2{
+  font-size: 30px;
+  font-weight: 600;
+  color: #222;
+  margin-right: 950px;
+}
+.social h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+  float: left;
+}
+.price-items{
+  margin-bottom: 22px;
+  float: left;
+  margin-top: 100px;
+}
+.price-cell{
+  margin-bottom: 5px;
+}
+.price-cell span{
+  display: block;
+  font-size: 30px;
+  color: #222;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.tag{
+  display: inline-block;
+  background: #ddd;
+  color: #222;
+  padding: 5px 17px;
+  border-radius: 999px;
+  font-size: 20px;
+  box-shadow: 0 2px 4px #bababa70;
+  margin-bottom: 2px;
+  pointer-events: none; 
+}
+.subtext{
+  font-size: 13px;
+  color: #666;
+  margin-left: 5px;
+}
+.photos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.photos img{
+  width: 250px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 3px solid #b1b1b1;
+  box-shadow: 0 4px 18px #00000030;
+  background: #fff;
+}
+.photos img:hover{
+  transform: scale(1.2);
+}
+.contact-btn{
+  margin: 20px 20px 0 450px;
+  text-align: center;
+  background: #fafafa;
+  color: #222;
+  font-size: 25px;
+  border-radius: 14px;
+  padding: 7px 16px;
+  border: 1.5px solid #bbb;
+  font-weight: 500;
+  display: inline-block;
+}
+.social{
+  margin-top: 25px;
+  border-radius: 13px;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+.social-row{
+  display: flex;
+  gap: 15px;
+  margin-top: 0%;
+  margin-bottom: 8px;
+  margin-left: 700px;
+}
+.social-row a{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 6px #2222;
+  text-align: center;
+  line-height: 38px;
+  transition: box-shadow 0.2s;
+}
+.social-row a:hover{
+  box-shadow: 0 4px 10px #2228;
+}
+.social-row img{
+  width: 55px;
+  height: 55px;
+  vertical-align: middle;
+}
+.social-info{
+  font-size: 20px;
+  color: #eee;
+  margin-bottom: 8px;
+  margin-right: 250px;
+  float: right;
+}
+.social-info:hover{
+  animation: info 2s infinite;
+}
+.social-photo{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+footer{
+    background: #686767;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    padding: 12px 0 8px 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+@keyframes info {
+  0%, 100%{
+    font-size: 20px;
+    color: #eee;
+  }
+  50%{
+    font-size: 23px;
+    color: #ede4e4;
+    transform: scale(1);
+    border: 5px double rgb(103, 103, 103);
+  }
+}
